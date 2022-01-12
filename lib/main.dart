@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'todo app',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColorDark: Color(0xff87CEFA),
       ),
       home: HomePage(),
     );
@@ -96,7 +96,7 @@ class _HomePageState extends State<HomePage> {
           controller: newTaskControler,
           keyboardType: TextInputType.text,
           style: TextStyle(
-            color: Colors.white,
+            color: Color(0xffC71585),
             fontSize: 20,
           ),
           decoration: InputDecoration(
